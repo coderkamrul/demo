@@ -483,3 +483,8 @@ img.img-demo {
     width: 52px;
     margin-left: -4px;
 }
+@media only screen and (max-width:900px){
+    .post-show {
+        left: 93px;
+    }
+}
