@@ -484,4 +484,9 @@ img.img-demo {
     width: 52px;
     margin-left: -4px;
 }
+@media only screen(max-width : 1000px){
+    .post-show{
+    width: 217px;
+    }
+}
 
