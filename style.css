@@ -227,11 +227,12 @@ button#post {
     position: fixed;
 }
 .post-show {
-    position: absolute;
-    width: 64vw;
-    top: 260px;
-    left: 50%;
-    transform: translate(-34%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto 190px;
+    margin-top: 30px;
 }
 
 .post-c {
@@ -483,8 +484,4 @@ img.img-demo {
     width: 52px;
     margin-left: -4px;
 }
-@media only screen and (max-width:900px){
-    .post-show {
-        left: 93px;
-    }
-}
+
