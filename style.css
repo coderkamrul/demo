@@ -230,7 +230,7 @@ button#post {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin: auto 190px;
     margin-top: 30px;
 }
